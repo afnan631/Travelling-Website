@@ -1,5 +1,5 @@
 What it is about:
-A luxury travel agency website called Wanderlux that showcases travel destinations and experiences.
+A luxury travel agency responsive web page called Wanderlux that showcases travel destinations and experiences.
 
 What it includes:
 Navigation, Hero section, Stats, Destinations, Experiences, Testimonial, Call to Action and Footer.
