@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wanderlux — Luxury Travel Experiences</title>
+  <link rel="stylesheet" href="travel.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="logo">Wander<span>lux</span></div>
+    <ul class="nav-links">
+      <li><a href="#destinations">Destinations</a></li>
+      <li><a href="#experiences">Experiences</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact" class="nav-cta">Book Now</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#destinations" onclick="closeMenu()">Destinations</a>
+    <a href="#experiences" onclick="closeMenu()">Experiences</a>
+    <a href="#about" onclick="closeMenu()">About</a>
+    <a href="#contact" onclick="closeMenu()">Book Now</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-stars"></div>
+    <div class="hero-mountain"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <div class="eyebrow-line"></div>
+        <span class="eyebrow-text">Luxury Travel Redefined</span>
+      </div>
+      <h1>Explore the<br><em>World's Most</em><br>Hidden Gems</h1>
+      <p class="hero-sub">
+        Curated journeys to extraordinary destinations. We craft bespoke travel experiences that transform the way you see the world.
+      </p>
+      <div class="hero-actions">
+        <a href="#destinations" class="btn btn-gold">Explore Destinations</a>
+        <a href="#experiences" class="btn btn-outline">Our Experiences</a>
+      </div>
+      <div class="scroll-hint">
+        <div class="scroll-line"></div>
+        <span>Scroll to explore</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats-bar">
+    <div class="stat-item">
+      <div class="stat-num">120+</div>
+      <div class="stat-label">Destinations</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">14K</div>
+      <div class="stat-label">Happy Travelers</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">18</div>
+      <div class="stat-label">Years Experience</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">98%</div>
+      <div class="stat-label">Satisfaction Rate</div>
+    </div>
+  </div>
+
+  <!-- DESTINATIONS -->
+  <section class="destinations" id="destinations">
+    <div class="section-header">
+      <div>
+        <div class="section-label">Where to Go</div>
+        <div class="section-title">Featured<br>Destinations</div>
+      </div>
+      <a href="#" class="btn btn-outline">View All</a>
+    </div>
+
+    <div class="dest-grid">
+      <div class="dest-card">
+        <div class="dest-bg"></div>
+        <div class="dest-overlay"></div>
+        <div class="dest-content">
+          <div class="dest-region">South Asia</div>
+          <div class="dest-name">Kashmir Valley</div>
+          <div class="dest-info">
+            <span>7 Days</span>
+            <span>•</span>
+            <span class="dest-price">From $1,299</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="dest-card">
+        <div class="dest-bg"></div>
+        <div class="dest-overlay"></div>
+        <div class="dest-content">
+          <div class="dest-region">Middle East</div>
+          <div class="dest-name">Petra, Jordan</div>
+          <div class="dest-info">
+            <span>5 Days</span>
+            <span>•</span>
+            <span class="dest-price">From $899</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="dest-card">
+        <div class="dest-bg"></div>
+        <div class="dest-overlay"></div>
+        <div class="dest-content">
+          <div class="dest-region">Southeast Asia</div>
+          <div class="dest-name">Bali Highlands</div>
+          <div class="dest-info">
+            <span>6 Days</span>
+            <span>•</span>
+            <span class="dest-price">From $799</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="dest-card">
+        <div class="dest-bg"></div>
+        <div class="dest-overlay"></div>
+        <div class="dest-content">
+          <div class="dest-region">Europe</div>
+          <div class="dest-name">Santorini</div>
+          <div class="dest-info">
+            <span>5 Days</span>
+            <span>•</span>
+            <span class="dest-price">From $1,499</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="dest-card">
+        <div class="dest-bg"></div>
+        <div class="dest-overlay"></div>
+        <div class="dest-content">
+          <div class="dest-region">Africa</div>
+          <div class="dest-name">Sahara Desert</div>
+          <div class="dest-info">
+            <span>4 Days</span>
+            <span>•</span>
+            <span class="dest-price">From $699</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCES -->
+  <section class="experiences" id="experiences">
+    <div class="section-label">What We Offer</div>
+    <div class="section-title">Unforgettable<br>Experiences</div>
+
+    <div class="exp-grid">
+      <div class="exp-card">
+        <span class="exp-icon">🏔️</span>
+        <div class="exp-title">Mountain Treks</div>
+        <div class="exp-desc">Guided expeditions through the world's most breathtaking mountain ranges with expert local guides.</div>
+      </div>
+      <div class="exp-card">
+        <span class="exp-icon">🏛️</span>
+        <div class="exp-title">Cultural Immersion</div>
+        <div class="exp-desc">Deep dive into ancient cultures, local traditions, and hidden historical sites off the tourist trail.</div>
+      </div>
+      <div class="exp-card">
+        <span class="exp-icon">🌊</span>
+        <div class="exp-title">Ocean Escapes</div>
+        <div class="exp-desc">Private island stays, underwater exploration, and sailing journeys across crystal-clear waters.</div>
+      </div>
+      <div class="exp-card">
+        <span class="exp-icon">🌄</span>
+        <div class="exp-title">Desert Safaris</div>
+        <div class="exp-desc">Luxury camps under a billion stars, camel treks at sunrise, and ancient caravan route adventures.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL -->
+  <section class="testimonial" id="about">
+    <div class="testimonial-inner">
+      <span class="quote-mark">"</span>
+      <blockquote>
+        Wanderlux didn't just plan a trip — they crafted a journey that changed my entire perspective on the world. Every detail was perfect.
+      </blockquote>
+      <div class="testimonial-author">— Sarah Mitchell, Traveled to Kashmir & Bali</div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <div class="cta-section" id="contact">
+    <div class="cta-text">
+      <div class="section-label">Start Your Journey</div>
+      <h2>Ready to Explore<br>the World?</h2>
+    </div>
+    <div class="cta-actions">
+      <a href="#" class="btn btn-gold">Book a Trip</a>
+      <a href="#" class="btn btn-outline">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo">Wander<span>lux</span></div>
+        <p>Crafting extraordinary travel experiences for the curious and adventurous since 2006.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Destinations</h4>
+        <ul>
+          <li><a href="#">Asia Pacific</a></li>
+          <li><a href="#">Europe</a></li>
+          <li><a href="#">Middle East</a></li>
+          <li><a href="#">Africa</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Experiences</h4>
+        <ul>
+          <li><a href="#">Mountain Treks</a></li>
+          <li><a href="#">Cultural Tours</a></li>
+          <li><a href="#">Ocean Escapes</a></li>
+          <li><a href="#">Desert Safaris</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Wanderlux. All rights reserved.</p>
+      <p>Privacy Policy · Terms of Service</p>
+    </div>
+  </footer>
+
+  <script>
+    // Nav scroll effect
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    function toggleMenu() {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    }
+    function closeMenu() {
+      document.getElementById('mobileMenu').classList.remove('open');
+    }
+  </script>
+
+</body>
+</html>
